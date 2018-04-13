@@ -1,0 +1,32 @@
+.container{ 
+    margin: 0 auto;
+    width: 700px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px solid red;
+}
+.scoreboard{
+    width:100%;
+}
+.scoreboard button{
+    margin: 0 50px;
+    /*width:100%;*/
+}
+.square{
+    width:12px;
+    height:12px;
+    border: 1px solid gray;
+}
+
+/*.dead{*/
+/*    background-color:black;*/
+/*}*/
+
+.alive{
+    background-color:#adf5ff;
+}
+
+.old{
+   background-color: #02d2ef;
+}
